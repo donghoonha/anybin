@@ -678,17 +678,17 @@ def BT_main() :
 
                 a.SQL_MSSQL_OPEN()
 
-                #a.SQL_getNEWMoldLoc()     # get the mold_loc for YWIC_MMS_NEW
+                a.SQL_getNEWMoldLoc()     # get the mold_loc for YWIC_MMS_NEW
 
                 #a.ShowTables()
-                #ret1 = a.DROPTABLES()
-                #print(ret1)
+                ret1 = a.DROPTABLES()
+                print(ret1)
 
-                #ret = a.CREATE_TABLES()
-                #print( len(ret), ret)
+                ret = a.CREATE_TABLES()
+                print( len(ret), ret)
 
-                #if(ret[0] >= 0) :
-                        #a.SQL_BLEGATEWAY_INIT()
+                if(ret[0] >= 0) :
+                        a.SQL_BLEGATEWAY_INIT()
 
                 #if(ret[1] >= 0) :
                         # ble_device data insert
