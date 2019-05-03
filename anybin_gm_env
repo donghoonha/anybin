@@ -1,0 +1,12 @@
+serverIP: 192.168.0.200:1433
+loginID: sa
+password: 6230 
+dbname: GMES_GM
+ipaddress: 192.168.0.216
+scannerid: Anybi:n113
+constrain: 1st
+productco: GM
+location: GM
+locx: 0
+locy: 0
+locz: 300
